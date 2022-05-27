@@ -1,3 +1,6 @@
+/*
+35 1-23/4 * * * jd_nm1.js
+*/
 const CryptoJS = require("crypto-js");
 const $ = new Env('热爱奇旅1');
 const notify = $.isNode() ? require('./sendNotify') : '';
